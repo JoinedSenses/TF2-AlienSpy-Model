@@ -3,7 +3,7 @@
 	"$basetexture"	"effects/blue"
 	<dx90
 	{
-		 	"$bumpmap" "water/dx80_tfwater001_normal"
+		"$bumpmap" "water/dx80_tfwater001_normal"
 	}
 	"$bumpmap" "water/tfwater001_normal"
 	"$envmap" "effects/cubemapper"
@@ -102,7 +102,6 @@
 			"sinemin" "$invulnexponentoutput"
 			"sinemax" "13"
 		}
-
 		"Equals"
 		{
 			"srcVar1" "$invulnexponent"
@@ -118,8 +117,5 @@
 			"srcVar1" "$invulnphong"
 			"resultVar" "$phongboost" 
 		}
-
-
-
 	}
 }
