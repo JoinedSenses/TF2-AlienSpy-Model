@@ -3,8 +3,8 @@
 {
 	"$basetexture" "models/player/spy/spy_head_red"
 	// $bumpmap is a shared 16x16 flat normal map, and is needed or lightwarp won't shade correctly.
-	"$bumpmap"     "models/player/shared/shared_normal"
-			"$detail" "effects/tiledfire/fireLayeredSlowTiled512.vtf"	
+	"$bumpmap" "models/player/shared/shared_normal"
+	"$detail" "effects/tiledfire/fireLayeredSlowTiled512.vtf"	
 	"$detailscale" "1"
 	"$detailblendfactor" .01
 	"$detailblendmode" 6
@@ -17,7 +17,7 @@
 	"$phongexponent" "20"
 	"$phongboost" ".3"	
 	"$lightwarptexture" "models/player/pyro/pyro_lightwarp"
-	"$phongfresnelranges"	"[.3 1 8]"
+	"$phongfresnelranges" "[.3 1 8]"
 	"$halflambert" "0"
 
 	// Rim lighting parameters
@@ -52,6 +52,5 @@
 			"srcVar1"  "$yellow"
 			"resultVar" "$color2"
 		}
-
 	}
 }
