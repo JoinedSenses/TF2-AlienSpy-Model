@@ -8,11 +8,8 @@
 	"$detailblendfactor" .01
 	"$detailblendmode" 6
 
-
-
 	"$yellow" "0"
 	"$one" "1"
-
 
 	"$phong" "1"
 	"$phongexponent" "20"
