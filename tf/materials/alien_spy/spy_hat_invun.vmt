@@ -3,11 +3,11 @@
 	"$basetexture"	"effects/red"
 	<dx90
 	{
-		 	"$bumpmap" "water/dx80_tfwater001_normal"
+		"$bumpmap" "water/dx80_tfwater001_normal"
 	}
 	"$bumpmap" "water/tfwater001_normal"
 	"$envmap" "effects/invun_red"
-//	"$envmaptint" "[.2 .2 .2]"
+	// "$envmaptint" "[.2 .2 .2]"
 	"$surfaceprop" "metal"
 	"$halflambert" "1"
 
@@ -103,7 +103,6 @@
 			"sinemin" "$invulnexponentoutput"
 			"sinemax" "13"
 		}
-
 		"Equals"
 		{
 			"srcVar1" "$invulnexponent"
@@ -119,8 +118,5 @@
 			"srcVar1" "$invulnphong"
 			"resultVar" "$phongboost" 
 		}
-
-
-
 	}
 }
