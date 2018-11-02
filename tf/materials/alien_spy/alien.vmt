@@ -1,7 +1,7 @@
 "VertexLitGeneric"
 {
 	"$baseTexture" "alien_spy/alien"
-    "$envmap" "env_cubemap"
+	"$envmap" "env_cubemap"
 	"$envmaptint" .3 .4 .5
 	
 	"$phong" "1"
