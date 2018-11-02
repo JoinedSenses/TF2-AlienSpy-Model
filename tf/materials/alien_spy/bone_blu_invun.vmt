@@ -38,7 +38,7 @@
 	"$phongexponent"  "35"
 	"$phongboost" "1"	
 	"$lightwarptexture" "models/player/pyro/pyro_lightwarp"
-	"$phongfresnelranges"	"[11 1 8]"
+	"$phongfresnelranges" "[11 1 8]"
 	
 	// Rim lighting parameters
 	"$rimlight" "1"		
@@ -83,15 +83,15 @@
 		}
 		"Sine"
 		{
-			"resultVar" "$invulnfmax"
-			"sineperiod" ".3"
-			"sinemin" "$invulnfmaxoutput"
-			"sinemax" "18"
+			"resultVar"	"$invulnfmax"
+			"sineperiod"	".3"
+			"sinemin"	"$invulnfmaxoutput"
+			"sinemax"	"18"
 		}
 		"Sine"
 		{
-			"resultVar" "$invulnphong"
-			"sineperiod" ".3"
+			"resultVar"	"$invulnphong"
+			"sineperiod"	".3"
 			"sinemin" "$invulnphongoutput"
 			"sinemax" "1"
 		}
