@@ -1,0 +1,28 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "alien_spy/alien"
+    "$envmap" "env_cubemap"
+	"$envmaptint" .3 .4 .5
+	
+	"$phong" "1"
+	"$phongexponent" "15"
+	//"$lightwarptexture" "models/player/pyro/pyro_lightwarp"
+	"$phongboost" "1"	
+	"$phongfresnelranges"	"[1 2 5]"
+	"$halflambert" "1"
+
+	"$rimlight" "1"												
+	"$rimlightexponent" "4"										
+	"$rimlightboost" "4"							
+
+	// Cloaking
+	"$cloakPassEnabled" "1"
+
+	"Proxies"
+	{
+		"weapon_invis"
+		{
+		}
+
+	}
+}
