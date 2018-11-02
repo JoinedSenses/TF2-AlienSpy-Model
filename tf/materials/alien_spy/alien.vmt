@@ -8,7 +8,7 @@
 	"$phongexponent" "15"
 	//"$lightwarptexture" "models/player/pyro/pyro_lightwarp"
 	"$phongboost" "1"	
-	"$phongfresnelranges"	"[1 2 5]"
+	"$phongfresnelranges" "[1 2 5]"
 	"$halflambert" "1"
 
 	"$rimlight" "1"												
