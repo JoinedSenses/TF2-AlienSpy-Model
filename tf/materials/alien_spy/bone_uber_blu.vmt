@@ -3,7 +3,7 @@
 	"$basetexture" "alien_spy/bone_uber_blu"
 	<dx90
 	{
-		 	"$bumpmap" "water/dx80_tfwater001_normal"
+		"$bumpmap" "water/dx80_tfwater001_normal"
 	}
 	"$bumpmap" "water/tfwater001_normal"
 	"$envmap" "effects/cubemapper"
