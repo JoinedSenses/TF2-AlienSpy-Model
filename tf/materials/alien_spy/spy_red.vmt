@@ -3,7 +3,7 @@
 {
 	"$basetexture" "models/custom/player/alien_spy/spy_red"
 	"$bumpmap" "models/player/spy/spy_normal"
-			"$detail" "effects/tiledfire/fireLayeredSlowTiled512.vtf"	
+	"$detail" "effects/tiledfire/fireLayeredSlowTiled512.vtf"	
 	"$detailscale" "5"
 	"$detailblendfactor" .01
 	"$detailblendmode" 6
@@ -18,7 +18,7 @@
 	"$phongexponent" "20"
 	"$phongboost" ".3"	
 	"$lightwarptexture" "models/player/pyro/pyro_lightwarp"
-	"$phongfresnelranges"	"[.3 1 8]"
+	"$phongfresnelranges" "[.3 1 8]"
 	"$halflambert" "0"
 
 	// Rim lighting parameters
@@ -53,6 +53,5 @@
 			"srcVar1"  "$yellow"
 			"resultVar" "$color2"
 		}
-
 	}
 }
