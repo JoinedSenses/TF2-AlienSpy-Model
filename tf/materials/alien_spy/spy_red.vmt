@@ -1,7 +1,7 @@
 "VertexLitGeneric"
 
 {
-	"$basetexture" "models/custom/player/alien_spy/spy_red"
+	"$basetexture" "alien_spy/spy_red"
 	"$bumpmap" "models/player/spy/spy_normal"
 	"$detail" "effects/tiledfire/fireLayeredSlowTiled512.vtf"	
 	"$detailscale" "5"
